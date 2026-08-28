@@ -1,0 +1,17 @@
+---
+created: {{DATE}}
+updated: {{DATE}}
+type: log
+tags: [Wiki, 日志]
+---
+
+# Wiki 日志
+
+> 按时间倒序追加摄取、查询沉淀、修复与巡检记录。
+
+## [{{DATE}}] setup | 建立空白 Vault 框架
+
+- 建立：来源层、AI 工作层、长期 Wiki、输出、模板与附件的目录约定。
+- 规则：正式来源由用户放入 `1-Inbox`；AI 保持 Inbox 文件只读。
+- 配置：敏感级别由父目录 Vault 注册表管理；Daily Notes 默认关闭。
+- 状态：尚未迁入或摄取任何具体内容。

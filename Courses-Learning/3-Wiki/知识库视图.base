@@ -1,0 +1,81 @@
+properties:
+  file.name:
+    displayName: 页面
+  type:
+    displayName: 类型
+  status:
+    displayName: 状态
+  updated:
+    displayName: 更新日期
+  last_reviewed:
+    displayName: 复核日期
+  tags:
+    displayName: 标签
+  source:
+    displayName: 原文
+  source_id:
+    displayName: 来源 ID
+  value:
+    displayName: 价值
+  file.mtime:
+    displayName: 文件修改时间
+views:
+  - type: table
+    name: 全部 Wiki
+    filters:
+      and:
+        - file.inFolder("3-Wiki")
+        - file.ext == "md"
+        - file.name != "index"
+        - file.name != "log"
+    order:
+      - file.name
+      - type
+      - status
+      - updated
+      - last_reviewed
+      - tags
+  - type: table
+    name: 待培育
+    filters:
+      and:
+        - file.inFolder("3-Wiki")
+        - file.ext == "md"
+        - or:
+            - status == "seed"
+            - status == "growing"
+    order:
+      - file.name
+      - type
+      - status
+      - updated
+      - last_reviewed
+  - type: table
+    name: 待审阅
+    filters:
+      and:
+        - file.inFolder("2-AI work")
+        - file.ext == "md"
+        - status == "review"
+    order:
+      - file.name
+      - type
+      - value
+      - source_id
+      - source
+      - updated
+  - type: table
+    name: 最近更新
+    filters:
+      and:
+        - file.inFolder("3-Wiki")
+        - file.ext == "md"
+        - file.mtime >= now() - "30d"
+        - file.name != "index"
+        - file.name != "log"
+    order:
+      - file.name
+      - type
+      - status
+      - updated
+      - file.mtime

@@ -1,0 +1,16 @@
+---
+created: {{DATE}}
+updated: {{DATE}}
+type: index
+tags: [首页, {{VAULT_NAME}}]
+---
+
+# {{DISPLAY_NAME}}
+
+{{SCOPE}}。
+
+- [[3-Wiki/index|Wiki 索引]]
+- [[3-Wiki/知识库视图.base|知识库动态视图]]
+- [[3-Wiki/log|维护日志]]
+
+正式来源由用户放入 `1-Inbox/`；AI 工作稿进入 `2-AI work/`，长期知识进入 `3-Wiki/`。

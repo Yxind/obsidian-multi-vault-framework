@@ -1,0 +1,342 @@
+{
+  "format_version": 1,
+  "generated": "2026-08-28",
+  "archive_root": "Obsidian-Multi-Vault-Framework",
+  "files": [
+    {
+      "path": ".agents/skills/ai-organize/agents/openai.yaml",
+      "size": 274,
+      "sha256": "83b3c5b9f9dec105e3e522ae69f28215affb84781b5a396f2473a06add677536"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/detailed-summary.md",
+      "size": 1540,
+      "sha256": "b238c2898cd3888084b32b595397ee98cf410d8232504aa504f6a7dffc7423b7"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/knowledge-ownership.md",
+      "size": 1192,
+      "sha256": "f98758f1295eddc8dd120e55b6cfeeb55a3b6489830a34205f9c04730047881c"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/repair-validation.md",
+      "size": 2265,
+      "sha256": "4f327f63ba98a71ae6ef2a46342d70472aec5e027134b10863cfccaa75fdfe70"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/rough-analysis.md",
+      "size": 1390,
+      "sha256": "438fc40a850e1d6a0aac576a8d169e07064c03c192d160e03dad689aef3d7e38"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/routing-query.md",
+      "size": 1495,
+      "sha256": "e32ffb63967e7d29ee7a047dbcdab15f2e18309840581286d66c143f71a33318"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/source-identity.md",
+      "size": 1160,
+      "sha256": "0bcf6b5f49dd45aecf10b054c957bde6b097d077804843f1d234105fe4fac39a"
+    },
+    {
+      "path": ".agents/skills/ai-organize/references/wiki-ingestion.md",
+      "size": 1380,
+      "sha256": "e4bf2af8d7f90f59ed5f27e612205466db308d59fba6b9945b57c4caa37f40ba"
+    },
+    {
+      "path": ".agents/skills/ai-organize/scripts/source_identity.py",
+      "size": 1462,
+      "sha256": "149043a0aa9caa5a56e63eb2d02f4e1caf5a2456786db5fe26e21186c8b931ad"
+    },
+    {
+      "path": ".agents/skills/ai-organize/scripts/validate_vault.py",
+      "size": 22718,
+      "sha256": "9dd8909ae629429068fd2903e0011238b2e3c691fa587a96f4799cbbd4bbbd5f"
+    },
+    {
+      "path": ".agents/skills/ai-organize/SKILL.md",
+      "size": 4160,
+      "sha256": "fd7987dbfe541d2a14c65d0a1c30175b7c249817c5c914a240737ad2084b186c"
+    },
+    {
+      "path": "_Vault-System/Config-Source/app.json",
+      "size": 200,
+      "sha256": "f7154066c2fb275d579165aedf85a0a3eab45876acebabaa13af7f8aecb0f47d"
+    },
+    {
+      "path": "_Vault-System/Config-Source/core-plugins.json",
+      "size": 699,
+      "sha256": "b32c26462a9e8149c007b1dd70227992d9b33708b00a287f96d744b868833e12"
+    },
+    {
+      "path": "_Vault-System/Config-Source/templates.json",
+      "size": 28,
+      "sha256": "393f96d6332dfc05f25eb19dc0cb3c75f8c924696b1b35349e4c6672e3c3a712"
+    },
+    {
+      "path": "_Vault-System/migration-checklist.md",
+      "size": 2337,
+      "sha256": "9ed87166bf632033dec8f45ab467da5ca2b4f29617b48cef873df5d422458cd2"
+    },
+    {
+      "path": "_Vault-System/README.md",
+      "size": 1735,
+      "sha256": "693e50f352404f4229b9acf9e2651d18a8d07d7a83b4cc97a16e5f7deca398f1"
+    },
+    {
+      "path": "_Vault-System/scripts/export_framework.py",
+      "size": 14292,
+      "sha256": "53f36e5e51d79609b08383b9de0f652cd4220e446ca72bc4d327ba1005a19806"
+    },
+    {
+      "path": "_Vault-System/scripts/new_vault.py",
+      "size": 8214,
+      "sha256": "d31ae896d29d51fc632ef54f6f671da5dfbefe6b8d6def128266bba05789bbf4"
+    },
+    {
+      "path": "_Vault-System/scripts/source_identity.py",
+      "size": 1462,
+      "sha256": "149043a0aa9caa5a56e63eb2d02f4e1caf5a2456786db5fe26e21186c8b931ad"
+    },
+    {
+      "path": "_Vault-System/scripts/sync_same_source_notices.py",
+      "size": 8864,
+      "sha256": "c8c6d1c5e132ed18bcff618d5b1e4faa87c8f2ebbee85954a565eb765b0cb3ee"
+    },
+    {
+      "path": "_Vault-System/scripts/test_validators.py",
+      "size": 8963,
+      "sha256": "38b3198d85facae64897c5c0b5b0a7ab2156164fc4a5b31b8702f34cd1374d1b"
+    },
+    {
+      "path": "_Vault-System/scripts/validate_vault.py",
+      "size": 22718,
+      "sha256": "9dd8909ae629429068fd2903e0011238b2e3c691fa587a96f4799cbbd4bbbd5f"
+    },
+    {
+      "path": "_Vault-System/scripts/validate_workspace.py",
+      "size": 10544,
+      "sha256": "dffaa2a4d467da2f9ea2d0fa59d04bd401332a419437011d4ce1de907038a712"
+    },
+    {
+      "path": "_Vault-System/shared-rules.md",
+      "size": 4384,
+      "sha256": "2a44c507dd48e0dec9e74661f9e5ce5afd49866a9f1431189eee35c86aa0e63f"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/AI 粗剪模板.md",
+      "size": 575,
+      "sha256": "7241e07d2b6b6cb97618fad98a36748f8870d0a6010c09a3f05f52c530bf57c6"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/Obsidian Web Clipper - Inbox.json",
+      "size": 877,
+      "sha256": "b3e12d3bd2bc7982f9cf50437391d8bd503ba14164b4ef4461e588e09fddb515"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/Wiki 日志条目模板.md",
+      "size": 204,
+      "sha256": "b3e0ea64ce4239c321ca4e5d99b29795801c128b4ea29fd9094e10f250f3fb62"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/Wiki 页面模板.md",
+      "size": 606,
+      "sha256": "f2473965c9c1ccd2aaac317d2d545f5c4319dcc0768474095d1529663f25d2ea"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/来源笔记模板.md",
+      "size": 193,
+      "sha256": "4a393965b1879d8383d6135b208bb14bb1a955bd9007b91e78c6c64be0f0f25b"
+    },
+    {
+      "path": "_Vault-System/Templates-Source/详细总结模板.md",
+      "size": 869,
+      "sha256": "3a96137cabf42fb96cad3c9d28c7c01d93380f2d17373153acb3653a9ecae591"
+    },
+    {
+      "path": "_Vault-System/vault-map.md",
+      "size": 1755,
+      "sha256": "1b4a24d9a1c95d58620295a4252d83e90205c5af6325a36d79d9a46e665d7108"
+    },
+    {
+      "path": "_Vault-System/vault-registry.json",
+      "size": 941,
+      "sha256": "00e336a576db4ed5b259bdf7ba228ae190ab9b9cc1cd42822a0da3e8993381e6"
+    },
+    {
+      "path": "_Vault-System/Vault-Scaffold/AGENTS.md.template",
+      "size": 487,
+      "sha256": "c2ac0c1ab5f7e7ab7173df2480fd996448f2070b426b267c54dd61daca227acb"
+    },
+    {
+      "path": "_Vault-System/Vault-Scaffold/index.md.template",
+      "size": 507,
+      "sha256": "59e262187f2a60fa47d2328151398b2bf18c3da6c1a2439401ec244158fd12c8"
+    },
+    {
+      "path": "_Vault-System/Vault-Scaffold/log.md.template",
+      "size": 533,
+      "sha256": "0e0f265373aedfd68337fb2e4d9614f70a0be8f9f9f563e7c0852d22a2c8264e"
+    },
+    {
+      "path": "_Vault-System/Vault-Scaffold/知识库视图.base",
+      "size": 1557,
+      "sha256": "c89b99a07f5cf3f016b09870e58664850510d8e4af1a114c57680a87913a0630"
+    },
+    {
+      "path": "_Vault-System/Vault-Scaffold/知识库首页.md.template",
+      "size": 347,
+      "sha256": "1544bb3c09cfe75283d354d903853600c1617801d53ea3823ee1e5387ade7783"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 2763,
+      "sha256": "4ee4b64d32cf4aa572d6ce053425f8ce9f7eb5a6664a89edec31cd0a72b96965"
+    },
+    {
+      "path": "Courses-Learning/.obsidian/app.json",
+      "size": 200,
+      "sha256": "f7154066c2fb275d579165aedf85a0a3eab45876acebabaa13af7f8aecb0f47d"
+    },
+    {
+      "path": "Courses-Learning/.obsidian/core-plugins.json",
+      "size": 699,
+      "sha256": "b32c26462a9e8149c007b1dd70227992d9b33708b00a287f96d744b868833e12"
+    },
+    {
+      "path": "Courses-Learning/.obsidian/templates.json",
+      "size": 28,
+      "sha256": "393f96d6332dfc05f25eb19dc0cb3c75f8c924696b1b35349e4c6672e3c3a712"
+    },
+    {
+      "path": "Courses-Learning/3-Wiki/index.md",
+      "size": 511,
+      "sha256": "226484bc14838f7479644109c513284b83bb8ba7ffbe9848ce4e5a14ca55280a"
+    },
+    {
+      "path": "Courses-Learning/3-Wiki/log.md",
+      "size": 539,
+      "sha256": "e7ff59b7fcfd8f5ed1fe0d8af7d5d5580ca1c36f82870f9d1e9a7e3c3254b427"
+    },
+    {
+      "path": "Courses-Learning/3-Wiki/知识库视图.base",
+      "size": 1557,
+      "sha256": "c89b99a07f5cf3f016b09870e58664850510d8e4af1a114c57680a87913a0630"
+    },
+    {
+      "path": "Courses-Learning/AGENTS.md",
+      "size": 650,
+      "sha256": "891bbab3ff8ce6ad7969f673e8108d0f11da7eec3db44dcd72307cc3202019db"
+    },
+    {
+      "path": "Courses-Learning/Templates/AI 粗剪模板.md",
+      "size": 575,
+      "sha256": "7241e07d2b6b6cb97618fad98a36748f8870d0a6010c09a3f05f52c530bf57c6"
+    },
+    {
+      "path": "Courses-Learning/Templates/Obsidian Web Clipper - Inbox.json",
+      "size": 877,
+      "sha256": "b3e12d3bd2bc7982f9cf50437391d8bd503ba14164b4ef4461e588e09fddb515"
+    },
+    {
+      "path": "Courses-Learning/Templates/Wiki 日志条目模板.md",
+      "size": 204,
+      "sha256": "b3e0ea64ce4239c321ca4e5d99b29795801c128b4ea29fd9094e10f250f3fb62"
+    },
+    {
+      "path": "Courses-Learning/Templates/Wiki 页面模板.md",
+      "size": 606,
+      "sha256": "f2473965c9c1ccd2aaac317d2d545f5c4319dcc0768474095d1529663f25d2ea"
+    },
+    {
+      "path": "Courses-Learning/Templates/来源笔记模板.md",
+      "size": 193,
+      "sha256": "4a393965b1879d8383d6135b208bb14bb1a955bd9007b91e78c6c64be0f0f25b"
+    },
+    {
+      "path": "Courses-Learning/Templates/详细总结模板.md",
+      "size": 869,
+      "sha256": "3a96137cabf42fb96cad3c9d28c7c01d93380f2d17373153acb3653a9ecae591"
+    },
+    {
+      "path": "Courses-Learning/知识库首页.md",
+      "size": 433,
+      "sha256": "36629530972dc800cf72d26f540fcdd71f1d420766f53e9d2d26099e4f91047a"
+    },
+    {
+      "path": "Personal/.obsidian/app.json",
+      "size": 200,
+      "sha256": "f7154066c2fb275d579165aedf85a0a3eab45876acebabaa13af7f8aecb0f47d"
+    },
+    {
+      "path": "Personal/.obsidian/core-plugins.json",
+      "size": 699,
+      "sha256": "b32c26462a9e8149c007b1dd70227992d9b33708b00a287f96d744b868833e12"
+    },
+    {
+      "path": "Personal/.obsidian/templates.json",
+      "size": 28,
+      "sha256": "393f96d6332dfc05f25eb19dc0cb3c75f8c924696b1b35349e4c6672e3c3a712"
+    },
+    {
+      "path": "Personal/3-Wiki/index.md",
+      "size": 511,
+      "sha256": "226484bc14838f7479644109c513284b83bb8ba7ffbe9848ce4e5a14ca55280a"
+    },
+    {
+      "path": "Personal/3-Wiki/log.md",
+      "size": 539,
+      "sha256": "e7ff59b7fcfd8f5ed1fe0d8af7d5d5580ca1c36f82870f9d1e9a7e3c3254b427"
+    },
+    {
+      "path": "Personal/3-Wiki/知识库视图.base",
+      "size": 1557,
+      "sha256": "c89b99a07f5cf3f016b09870e58664850510d8e4af1a114c57680a87913a0630"
+    },
+    {
+      "path": "Personal/AGENTS.md",
+      "size": 761,
+      "sha256": "e9a0a12edb3519137685fe9d45be86cbbbc7ba705594ff485cf346f2da835673"
+    },
+    {
+      "path": "Personal/Templates/AI 粗剪模板.md",
+      "size": 575,
+      "sha256": "7241e07d2b6b6cb97618fad98a36748f8870d0a6010c09a3f05f52c530bf57c6"
+    },
+    {
+      "path": "Personal/Templates/Obsidian Web Clipper - Inbox.json",
+      "size": 877,
+      "sha256": "b3e12d3bd2bc7982f9cf50437391d8bd503ba14164b4ef4461e588e09fddb515"
+    },
+    {
+      "path": "Personal/Templates/Wiki 日志条目模板.md",
+      "size": 204,
+      "sha256": "b3e0ea64ce4239c321ca4e5d99b29795801c128b4ea29fd9094e10f250f3fb62"
+    },
+    {
+      "path": "Personal/Templates/Wiki 页面模板.md",
+      "size": 606,
+      "sha256": "f2473965c9c1ccd2aaac317d2d545f5c4319dcc0768474095d1529663f25d2ea"
+    },
+    {
+      "path": "Personal/Templates/来源笔记模板.md",
+      "size": 193,
+      "sha256": "4a393965b1879d8383d6135b208bb14bb1a955bd9007b91e78c6c64be0f0f25b"
+    },
+    {
+      "path": "Personal/Templates/详细总结模板.md",
+      "size": 869,
+      "sha256": "3a96137cabf42fb96cad3c9d28c7c01d93380f2d17373153acb3653a9ecae591"
+    },
+    {
+      "path": "Personal/知识库首页.md",
+      "size": 424,
+      "sha256": "26e5e27cc56bcf5f8daeeb485ec6a7a3be4488b0e3b78f19afce3af29945e27c"
+    },
+    {
+      "path": "README.md",
+      "size": 1707,
+      "sha256": "9c1414562566a0931cb4d38cf1437d47244a27f7e0b307130cd794b948878af7"
+    }
+  ]
+}

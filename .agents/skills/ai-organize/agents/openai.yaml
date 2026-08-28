@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Organize"
+  short_description: "用详细总结桥接 Inbox 与去重 Wiki，并管理临时粗剪"
+  default_prompt: "Use $ai-organize to analyze an Inbox source, keep a durable detailed-summary bridge, and ingest reciprocal Wiki links."

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "vaults": [
+    {
+      "name": "Courses-Learning",
+      "display_name": "Courses & Learning",
+      "sensitivity": "public",
+      "daily_notes_enabled": false,
+      "scope": "公开课程、书籍学习、练习、实验、学习项目与可复用的学习方法",
+      "excludes": "依赖具体身份、私人关系、个人状态或私人时间线的材料",
+      "route_question": "如何理解、练习或应用一门课程中的知识"
+    },
+    {
+      "name": "Personal",
+      "display_name": "Personal",
+      "sensitivity": "private",
+      "daily_notes_enabled": false,
+      "scope": "私人关系、个人状态、生活决策，以及依赖具体身份或私人时间线的资料",
+      "excludes": "可公开复用的课程知识、一般方法与公开资料",
+      "route_question": "这份材料是否依赖具体个人身份、私人时间线或只对个人生活有意义"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "文章与网页通用剪藏",
+  "behavior": "create",
+  "noteNameFormat": "{{date|date:\"YYYYMMDD\"}}-{{title|safe_name:windows}}-{{site|safe_name:windows}}",
+  "path": "1-Inbox/Articles-Web",
+  "noteContentFormat": "# {{title}}\n\n> [!info] 来源\n> [{{site}} · {{author}}]({{url}})\n> 剪藏于 {{date|date:\"YYYY-MM-DD\"}}\n\n{{content}}",
+  "properties": [
+    {"name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date"},
+    {"name": "type", "value": "source", "type": "text"},
+    {"name": "status", "value": "inbox", "type": "text"},
+    {"name": "source_type", "value": "article", "type": "text"},
+    {"name": "source_url", "value": "{{url}}", "type": "text"},
+    {"name": "author", "value": "{{author}}", "type": "text"},
+    {"name": "tags", "value": "inbox", "type": "multitext"}
+  ],
+  "triggers": []
+}
