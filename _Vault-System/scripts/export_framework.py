@@ -54,11 +54,11 @@ STARTER_VAULTS: tuple[dict[str, object], ...] = (
 
 RELEASE_README_TEMPLATE = """# Obsidian Multi-Vault Framework
 
-这是一个不含个人知识内容的 Obsidian 多 Vault 框架。父目录用于 Codex 跨库管理，不是 Obsidian Vault。
+这是一个 Obsidian 多 Vault 框架。父目录用于 Codex 跨库管理，不是 Obsidian Vault。
 
 ## 获取发行版
 
-- 可以直接克隆仓库；空目录内的 `.gitkeep` 只用于保留框架结构，不是 Inbox 来源或知识内容。
+- 可以直接克隆仓库；空目录内的 `.gitkeep` 用于保留框架结构。
 - 也可以从 GitHub Releases 下载固定版本 ZIP；ZIP 适合复制到其他电脑或交给他人部署。
 
 {starter_section}
@@ -81,8 +81,6 @@ RELEASE_README_TEMPLATE = """# Obsidian Multi-Vault Framework
 ## 数据边界
 
 - `_Dropzone/` 和既有 `1-Inbox/` 由用户维护，Agent 只读。
-- 预设 Vault 只有框架页面、配置和空 Inbox 分类，不包含来源、用户笔记、附件或历史记录。
-- 私人内容应进入 `sensitivity: private` 的 Vault；不要把含私人历史的目录直接发布到 Git 仓库。
 
 ## 重新发行
 
