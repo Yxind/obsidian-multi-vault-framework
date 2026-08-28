@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "archive_root": "Obsidian-Multi-Vault-Framework",
   "files": [
     {
@@ -59,6 +59,11 @@
       "sha256": "fd7987dbfe541d2a14c65d0a1c30175b7c249817c5c914a240737ad2084b186c"
     },
     {
+      "path": "_Dropzone/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "path": "_Vault-System/Config-Source/app.json",
       "size": 200,
       "sha256": "f7154066c2fb275d579165aedf85a0a3eab45876acebabaa13af7f8aecb0f47d"
@@ -85,8 +90,8 @@
     },
     {
       "path": "_Vault-System/scripts/export_framework.py",
-      "size": 14292,
-      "sha256": "53f36e5e51d79609b08383b9de0f652cd4220e446ca72bc4d327ba1005a19806"
+      "size": 15125,
+      "sha256": "2fbf974d850c0fcda937e98eb89ca503078ba9a0895948e7073fd1812b721b35"
     },
     {
       "path": "_Vault-System/scripts/new_vault.py",
@@ -120,8 +125,8 @@
     },
     {
       "path": "_Vault-System/shared-rules.md",
-      "size": 4384,
-      "sha256": "2a44c507dd48e0dec9e74661f9e5ce5afd49866a9f1431189eee35c86aa0e63f"
+      "size": 4628,
+      "sha256": "73e499caeabad7d47899851915b7d7d22720833bfe872976090f156d10328d83"
     },
     {
       "path": "_Vault-System/Templates-Source/AI 粗剪模板.md",
@@ -209,14 +214,54 @@
       "sha256": "393f96d6332dfc05f25eb19dc0cb3c75f8c924696b1b35349e4c6672e3c3a712"
     },
     {
+      "path": "Courses-Learning/1-Inbox/00-Unsorted/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Articles-Web/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Books-Courses/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Media/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Papers-Reports/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Personal-Private/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/1-Inbox/Project-Materials/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Courses-Learning/2-AI work/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "path": "Courses-Learning/3-Wiki/index.md",
       "size": 511,
-      "sha256": "226484bc14838f7479644109c513284b83bb8ba7ffbe9848ce4e5a14ca55280a"
+      "sha256": "f70cd874c13854915a029580ef6f956a7e283789894c1fb58bc8e754d72026dd"
     },
     {
       "path": "Courses-Learning/3-Wiki/log.md",
       "size": 539,
-      "sha256": "e7ff59b7fcfd8f5ed1fe0d8af7d5d5580ca1c36f82870f9d1e9a7e3c3254b427"
+      "sha256": "d8fc91b7fb978cc2dde963cd0eb7926c80d72d4db42ca9b0dca51b22cf723c82"
     },
     {
       "path": "Courses-Learning/3-Wiki/知识库视图.base",
@@ -224,9 +269,19 @@
       "sha256": "c89b99a07f5cf3f016b09870e58664850510d8e4af1a114c57680a87913a0630"
     },
     {
+      "path": "Courses-Learning/4-Outputs/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "path": "Courses-Learning/AGENTS.md",
       "size": 650,
       "sha256": "891bbab3ff8ce6ad7969f673e8108d0f11da7eec3db44dcd72307cc3202019db"
+    },
+    {
+      "path": "Courses-Learning/assets/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "path": "Courses-Learning/Templates/AI 粗剪模板.md",
@@ -261,7 +316,7 @@
     {
       "path": "Courses-Learning/知识库首页.md",
       "size": 433,
-      "sha256": "36629530972dc800cf72d26f540fcdd71f1d420766f53e9d2d26099e4f91047a"
+      "sha256": "27a3cc94d8cc499558ac074a1900456fa9172671668d2236ef950b4149b945a2"
     },
     {
       "path": "Personal/.obsidian/app.json",
@@ -279,14 +334,54 @@
       "sha256": "393f96d6332dfc05f25eb19dc0cb3c75f8c924696b1b35349e4c6672e3c3a712"
     },
     {
+      "path": "Personal/1-Inbox/00-Unsorted/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Articles-Web/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Books-Courses/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Media/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Papers-Reports/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Personal-Private/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/1-Inbox/Project-Materials/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "Personal/2-AI work/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "path": "Personal/3-Wiki/index.md",
       "size": 511,
-      "sha256": "226484bc14838f7479644109c513284b83bb8ba7ffbe9848ce4e5a14ca55280a"
+      "sha256": "f70cd874c13854915a029580ef6f956a7e283789894c1fb58bc8e754d72026dd"
     },
     {
       "path": "Personal/3-Wiki/log.md",
       "size": 539,
-      "sha256": "e7ff59b7fcfd8f5ed1fe0d8af7d5d5580ca1c36f82870f9d1e9a7e3c3254b427"
+      "sha256": "d8fc91b7fb978cc2dde963cd0eb7926c80d72d4db42ca9b0dca51b22cf723c82"
     },
     {
       "path": "Personal/3-Wiki/知识库视图.base",
@@ -294,9 +389,19 @@
       "sha256": "c89b99a07f5cf3f016b09870e58664850510d8e4af1a114c57680a87913a0630"
     },
     {
+      "path": "Personal/4-Outputs/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "path": "Personal/AGENTS.md",
       "size": 761,
       "sha256": "e9a0a12edb3519137685fe9d45be86cbbbc7ba705594ff485cf346f2da835673"
+    },
+    {
+      "path": "Personal/assets/.gitkeep",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "path": "Personal/Templates/AI 粗剪模板.md",
@@ -331,12 +436,12 @@
     {
       "path": "Personal/知识库首页.md",
       "size": 424,
-      "sha256": "26e5e27cc56bcf5f8daeeb485ec6a7a3be4488b0e3b78f19afce3af29945e27c"
+      "sha256": "9327b4dc141d6dea75689851253989bb4cd904327a9ab2728859742a15d712ae"
     },
     {
       "path": "README.md",
-      "size": 1707,
-      "sha256": "9c1414562566a0931cb4d38cf1437d47244a27f7e0b307130cd794b948878af7"
+      "size": 1964,
+      "sha256": "cbf1bca429601999f72778104afa0116fef1a939b3b406b7917a639b61b9502a"
     }
   ]
 }

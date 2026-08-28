@@ -29,6 +29,7 @@ SYSTEM_FILES = (
     "shared-rules.md",
 )
 IGNORED_NAMES = {".git", "__pycache__", ".DS_Store"}
+GIT_PLACEHOLDER = ".gitkeep"
 
 STARTER_VAULTS: tuple[dict[str, object], ...] = (
     {
@@ -54,6 +55,11 @@ STARTER_VAULTS: tuple[dict[str, object], ...] = (
 RELEASE_README_TEMPLATE = """# Obsidian Multi-Vault Framework
 
 这是一个不含个人知识内容的 Obsidian 多 Vault 框架。父目录用于 Codex 跨库管理，不是 Obsidian Vault。
+
+## 获取发行版
+
+- 可以直接克隆仓库；空目录内的 `.gitkeep` 只用于保留框架结构，不是 Inbox 来源或知识内容。
+- 也可以从 GitHub Releases 下载固定版本 ZIP；ZIP 适合复制到其他电脑或交给他人部署。
 
 {starter_section}
 
@@ -166,6 +172,17 @@ def write_text(path: Path, text: str) -> None:
     path.write_text(text.rstrip() + "\n", encoding="utf-8", newline="\n")
 
 
+def add_git_placeholders(root: Path) -> None:
+    """Keep intentionally empty release directories visible to Git clones."""
+    empty_directories = [
+        path
+        for path in root.rglob("*")
+        if path.is_dir() and not any(path.iterdir())
+    ]
+    for directory in empty_directories:
+        write_text(directory / GIT_PLACEHOLDER, "")
+
+
 def build_release(
     staging: Path,
     workspace: Path,
@@ -217,8 +234,8 @@ def audit_release(staging: Path, vaults: list[dict[str, object]]) -> None:
             raise RuntimeError(f"unexpected release root directory: {path.name}")
 
     dropzone_entries = list((staging / "_Dropzone").iterdir())
-    if dropzone_entries:
-        raise RuntimeError("release _Dropzone must be empty")
+    if any(path.name != GIT_PLACEHOLDER for path in dropzone_entries):
+        raise RuntimeError("release _Dropzone may contain only .gitkeep")
     if not (staging / ".agents" / "skills" / "ai-organize" / "SKILL.md").is_file():
         raise RuntimeError("release is missing the project-scoped ai-organize Skill")
 
@@ -236,7 +253,11 @@ def audit_release(staging: Path, vaults: list[dict[str, object]]) -> None:
     for entry in vaults:
         vault = staging / str(entry["name"])
         for relative in ("1-Inbox", "2-AI work", "4-Outputs", "assets"):
-            files = [path for path in (vault / relative).rglob("*") if path.is_file()]
+            files = [
+                path
+                for path in (vault / relative).rglob("*")
+                if path.is_file() and path.name != GIT_PLACEHOLDER
+            ]
             if files:
                 raise RuntimeError(
                     f"starter Vault contains user-data files in {entry['name']}/{relative}"
@@ -352,6 +373,7 @@ def main() -> int:
             staging = Path(temp) / ARCHIVE_ROOT
             staging.mkdir()
             build_release(staging, workspace, skill, vaults)
+            add_git_placeholders(staging)
             audit_release(staging, vaults)
             write_manifest(staging)
             write_archive(staging, output)

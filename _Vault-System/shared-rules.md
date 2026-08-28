@@ -50,6 +50,7 @@ Wiki 属性为 `created`、`updated`、`type`、`status`、非空 `sources`、`l
 - `Vault-Scaffold/` 是新 Vault 文本骨架；新库只能由 `new_vault.py` 生成。
 - `vault-map.md` 的注册表区块与子 Vault 的领域信息由注册表和生成器维护，不手工复制现有 Vault。
 - 入门发行包只能由 `export_framework.py` 按白名单生成：默认建立一个 `public` 课程 Vault 和一个 `private` 个人 Vault，但不包含现有 Vault、用户内容或暂存文件，并内置项目级 `ai-organize` Skill；确需纯空框架时使用 `--empty`。
+- 发行器可在临时发行目录的空文件夹内生成 `.gitkeep`，使 Git 保留框架结构；它不是 Inbox 来源或知识内容。该例外只属于发行过程，不授权 Agent 修改正在使用的 `_Dropzone` 或既有 Inbox。
 
 ## 校验
 
