@@ -1,10 +1,10 @@
 # Obsidian Multi-Vault Framework
 
-这是一个不含个人知识内容的 Obsidian 多 Vault 框架。父目录用于 Codex 跨库管理，不是 Obsidian Vault。
+这是一个 Obsidian 多 Vault 框架。父目录用于 Codex 跨库管理，不是 Obsidian Vault。
 
 ## 获取发行版
 
-首次部署请从 GitHub Releases 下载 `Obsidian-Multi-Vault-Framework-20260828.zip`。该发行包会保留 `_Dropzone`、Inbox 分类和其他必要的空目录；Git 本身不记录空目录，因此直接克隆仓库主要用于查看或维护框架源码。
+首次部署请从 GitHub Releases 下载 `Obsidian-Multi-Vault-Framework-20260828.zip`。
 
 ## 预设 Vault
 
@@ -31,8 +31,6 @@
 ## 数据边界
 
 - `_Dropzone/` 和既有 `1-Inbox/` 由用户维护，Agent 只读。
-- 预设 Vault 只有框架页面、配置和空 Inbox 分类，不包含来源、用户笔记、附件或历史记录。
-- 私人内容应进入 `sensitivity: private` 的 Vault；不要把含私人历史的目录直接发布到 Git 仓库。
 
 ## 重新发行
 
