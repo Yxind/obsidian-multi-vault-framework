@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .obsidian/workspace*.json
+
+# 个人笔记不入库（框架骨架已跟踪的文件不受影响）
+Personal/**
+!Personal/**/
